@@ -1,2 +1,2 @@
 # Portfolio
-This project is about application of my knowledge on front-end technologies while showcasing my skills, my interests and details about me
+This Project is about showcasing my Portfolio through a responsive web page using Front-End technologies such as HTML, CSS and JavaScript.
