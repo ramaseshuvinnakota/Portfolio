@@ -12,8 +12,6 @@
   cursor: pointer;
 }
 .profile-img:hover {
-  width: 600px;
-  height: 520px;
   box-shadow: 1px 0.5px 50px rgb(166, 160, 160);
 }
 #ckdLink {
