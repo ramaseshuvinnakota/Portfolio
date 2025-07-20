@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Rama Seshu Vinnakota, a passionate Software Developer specializing in full-stack web development, modern UI/UX, and scalable applications.">
+  <meta name="keywords" content="Software Developer, Web Developer, Portfolio, Full Stack, JavaScript, React, Python, Freelance Developer">
+  <meta name="author" content="Rama Seshu Vinnakota">
+  <title>Rama Seshu Vinnakota | Software Developer Portfolio</title>
+  <!-- Google Fonts for better typography -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet" />
+
+  <!-- For service icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1 id="headerTitle">RAMA SESHU VINNAKOTA</h1>
+    <button class="menu-toggle" aria-label="Toggle Navigation">&#9776;</button>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active" aria-label="Home page">Home</a></li>
+        <li><a href="#education" aria-label="Education">Education</a></li>
+        <li><a href="#skills" aria-label="Skills">Skills</a></li>
+        <li><a href="#projects" aria-label="Projects">Projects</a></li>
+        <li><a href="#services" aria-label="Services">Services</a></li>
+        <li><a href="#about" aria-label="About">About</a></li>
+        <li><a href="#contact" aria-label="Contact">Contact</a></li>
+        <li>
+          <button class="mode-toggle" aria-label="Toggle Dark/Light Mode">
+            <span class="sr-only">Toggle Dark/Light Mode</span>
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home">
+    <img src="./img/Profile Image-rs-1.jpg" alt="Rama Seshu Vinnakota Profile Image" class="profile-img" width="150" height="150" loading="lazy">
+    <h2>Hi, I'm <span style="color:var(--primary)">Rama Seshu Vinnakota</span></h2>
+    <p class="designation">Software Developer | Full Stack Engineer</p>
+    <div class="welcome-text">
+      Welcome to my digital portfolio. I build robust, scalable, and beautiful web applications to transform your ideas into success.
+    </div>
+    <div style="display: flex;flex-direction: row;gap: 2.5rem;">
+      <a href="#contact" style="margin-top:1.2rem;display:inline;background:var(--primary);color:#fff;padding:0.7rem 1.4rem;border-radius:8px;text-decoration:none;font-weight:500;transition:background 0.28s;">Let's Connect</a>
+      <a href="./assets/Vinnakota_RamaSeshu.pdf" style="margin-top:1.2rem;display:inline;background:var(--primary);color:#fff;padding:0.7rem 1.4rem;border-radius:8px;text-decoration:none;font-weight:500;transition:background 0.28s;" download onclick="return confirm('Confirm Download?')">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu-timeline">
+      <div class="edu-item">
+        <div class="edu-degree">Bachelor of Technology in Computer Science</div>
+        <div class="edu-institute">Aditya University</div>
+        <div class="edu-year">2019 - 2023</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">Intermediate (Plus 2)</div>
+        <div class="edu-institute">Vidya Vikas Jr College</div>
+        <div class="edu-year">2017 - 2019</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">High School</div>
+        <div class="edu-institute">Z.P.P.High School</div>
+        <div class="edu-year">2016 - 2017</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Python&nbsp;<i class="fab fa-python"></i></div>
+      <div class="skill-card">Java&nbsp;<i class="fab fa-java"></i></div>
+      <div class="skill-card">HTML&nbsp;<i class="fab fa-html5"></i></div>
+      <div class="skill-card">CSS&nbsp;<i class="fab fa-css3"></i></div>
+      <div class="skill-card">JavaScript&nbsp;<i class="fab fa-js-square"></i></div>
+      <div class="skill-card">React&nbsp;<i class="fab fa-react"></i></div>
+      <div class="skill-card">Node.js&nbsp;<i class="fab fa-node-js"></i></div>
+      <div class="skill-card">MongoDB&nbsp;<i class="fas fa-database"></i></div>
+      <div class="skill-card">AWS&nbsp;<i class="fab fa-aws"></i></div>
+      <div class="skill-card">Docker&nbsp;<i class="fab fa-docker"></i></div>
+      <div class="skill-card">REST APIs</div>
+      <div class="skill-card">Agile/Scrum</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="./img/Kidney Image.jpg" alt="Chronic Kidney Disease Detection" class="project-img">
+        <div class="project-content">
+          <h3 class="project-title">Detection of Chronic Kidney Disease using Machine Learning</h3>
+          <p class="project-description">This project leverages machine learning algorithms to predict the presence of Chronic Kidney Disease based on clinical data. Various models like Decision Trees and Random Forests were used for accurate predictions. The system aids early diagnosis, enhancing treatment possibilities.</p>
+          <a href="https://github.com/ramaseshuvinnakota/Chronic-Kidney-Disease-Project" class="project-link" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> View Repository
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./img/Product Store.png" alt="Product Management Web App" class="project-img">
+        <div class="project-content">
+          <h3 class="project-title">Product Management Web App</h3>
+          <p class="project-description">An e-commerce web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It features user authentication, product listings, shopping cart, and admin controls. The store provides a seamless shopping experience with a responsive UI.</p>
+          <a href="https://github.com/ramaseshuvinnakota/MERN-Project-Product-Store" class="project-link" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> View Repository
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./img/zoltar_speaks_1.jpg" alt="Fortune Teller" class="project-img">
+        <div class="project-content">
+          <h3 class="project-title">Fortune Teller Website using Python</h3>
+          <p class="project-description">A fun web application developed using Python that predicts fortunes based on user inputs. It generates random yet personalized fortune messages. This project demonstrates Python’s web capabilities with an engaging interactive experience.</p>
+          <a href="https://github.com/ramaseshuvinnakota/Fortune-Telling-App" class="project-link" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> View Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-list">
+      <div class="service-card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Responsive websites and web apps using the latest technologies to ensure high performance and modern UI/UX.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Mobile App Development</h3>
+        <p>Cross-platform mobile applications with seamless user experience and robust stability.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-server"></i>
+        <h3>Backend APIs & Cloud</h3>
+        <p>Secure, scalable RESTful APIs, serverless apps, and cloud-native solutions on AWS & Azure.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-lightbulb"></i>
+        <h3>Tech Consulting</h3>
+        <p>Architecting product solutions, tech stack selection, code reviews, and IT consulting for startups and businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      I'm a passionate software developer. I build modern web and mobile solutions. My expertise ranges from designing pixel-perfect frontends to architecting scalable backends and deploying cloud infrastructure. I love working on challenging problems and collaborating with multidisciplinary teams. My goal: deliver products that delight users and drive real impact.
+    </div>
+    <ul>
+      <li>🏆 Received 5 Stars in HackerRank for Problem Solving using Python</li>
+      <li>🛠️ Contributor to several open-source projects on GitHub</li>
+      <li>💬 Fluent in Telugu, English and Hindi</li>
+      <li>🌐 Based in Hyderabad, India</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form" id="contactForm" autocomplete="off">
+      <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+      <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+      <textarea name="message" rows="4" placeholder="Your Message" required aria-label="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+      <div class="contact-info" id="formMsg"></div>
+    </form>
+    <div class="contact-info">
+      <p>
+        <i class="fas fa-envelope"></i> ramaseshu9075@gmail.com &nbsp;&nbsp;
+        <i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/ramaseshuvinnakota/" target="_blank" rel="noopener" style="color:var(--primary)">Find me on LinkedIn</a>
+      </p>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer>
+    © 2024 Rama Seshu Vinnakota. All rights reserved. &nbsp;|&nbsp; Crafted with <span style="color:red;">&#10084;</span>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
